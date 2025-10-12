@@ -1,0 +1,166 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background Image */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-image: url('images/loginBackground.jpg'); /* Your car image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+/* Logo */
+.navbar-logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%; /* Makes the logo round */
+}
+
+/* Login Section */
+.login-section {
+    background: rgba(0, 0, 0, 0.4); /* Translucent black background */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(8px); /* Apply blur effect to the background */
+    color: white; /* Text color */
+}
+
+/* Login Title */
+.login-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.login-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Input Fields */
+.inputbox {
+    position: relative;
+    width: 100%;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    
+    border-radius: 100px;
+    outline: none;
+    transition: border 0.3s;
+    background-color: rgba(50, 49, 49, 0.899);
+}
+
+.inputbox input:focus {
+    border-color: #f4a261;
+}
+
+.inputbox label {
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #e07b3d;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #f4a261;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Register Link */
+.register-link {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #f4a261;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+
+
+
+
+

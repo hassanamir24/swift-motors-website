@@ -1,0 +1,296 @@
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #000;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navigationbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.navbar-logo img {
+    width: 100px;
+}
+
+.navigationbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Introductory Line */
+.Intro {
+    text-align: center;
+    background-color: #202020;
+    color: #fff;
+    padding: 20px 10px;
+}
+
+.intro {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+}
+
+.hero-image .background-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Filter Box */
+.filter_box {
+    background-color: #101010;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.filter_box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.filter_box select {
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.price_range,
+.year_range {
+    margin: 15px 0;
+}
+
+.featured-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8fbfd;
+}
+
+.featured-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.horizontal_line {
+    margin: 10px auto;
+    width: 60px;
+    height: 3px;
+    background-color: #0056d2;
+    border: none;
+}
+
+.featured-cars {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.car-card {
+    flex: 0 0 300px; /* Ensures consistent card width */
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-details {
+    padding: 15px;
+}
+
+.car-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #0056d2;
+}
+
+.car-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.car-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* Partners Section */
+.partners-section {
+    background-color: #101010;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.partner-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.partner-card {
+    background-color: #fff;
+    color: #101010;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.partner-image {
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.partner-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.partner-email,
+.partner-roll {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.contact-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.contact-form .form-input,
+.contact-form .form-textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .contact-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #101010;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #101010;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+

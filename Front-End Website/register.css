@@ -1,0 +1,165 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+body {
+    background-image: url('register.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+/* Logo */
+.navbar-logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%; /* Makes the logo round */
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.menu .search input {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.menu .search_icon img {
+    width: 16px;
+    height: 16px;
+}
+
+/* Register Box */
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* Background Image and Translucent Box */
+.register-form {
+    background: rgba(0, 0, 0, 0.7); /* Translucent Background */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Apply blur effect to background */
+}
+
+/* Register Form Title */
+.register-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Subtitle */
+.register-subtitle {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Input Fields */
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.inputbox label {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+/* Submit Button */
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #e68900;
+}
+
+/* Login Link */
+.login-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .register-form {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .register-form {
+        width: 90%;
+        padding: 15px;
+    }
+}
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+}
+

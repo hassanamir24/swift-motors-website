@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Navigation Bar */
+.navigationbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.navbar-logo img {
+    width: 100px;
+}
+
+.navigationbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navigationbar a:hover {
+    color: #ffcc00; /* Change link color on hover */
+    text-shadow: 0 0 5px #ffcc00; /* Add glow effect */
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: white;
+}
+
+.search-input:hover {
+    background-color: #333333; /* Change background color on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+
+/* Hero Section */
+.hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.scroll-btn {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.scroll-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Services Section */
+.services-background {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Service Box Styling */
+.service-box {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.service-img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff8c00;
+}
+
+.service-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 35px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+}
+

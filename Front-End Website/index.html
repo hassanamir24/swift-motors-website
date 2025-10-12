@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+
+    <title>SWIFT MOTORS</title>
+</head>
+
+<body>
+    <div class="navigationbar">
+
+    
+        <!-- Center logo -->
+        <div class="navbar-logo">
+            <img src="images/logo.jpg" alt="logo">
+
+        </div>
+    
+        <!-- Center menu items -->
+        <a href="index.html">HOME</a>
+                    <a href="Gallery.html">GALLERY</a>
+                    <a href="services.html">SERVICES</a>
+                    
+                    
+                    
+    
+        <!-- Right side (Search and login) -->
+        <div class="navbar-right">
+            <input type="text" class="search-input" placeholder="Search">
+            <a href="login.html">login</a>
+        </div>
+    </div>
+    
+    
+                    
+
+                    
+        <!-- INTRODUCTORY LINE -->
+        <div class="Intro">
+            <h2 class="intro"> Engineered for Trust, Crafted for Quality – Forging Lasting Bonds with Every Mile</h2>
+            
+        </div>
+        <!-- HERO SECTION -->
+    <div class="hero-section">
+        <div class="hero-image">
+            <img src="images/background.jpg" alt="Luxury Car" class="background-image">
+            <div class="hero-text">
+                <h2>TOP BRANDS 2019</h2>
+                <h1>MODERN-CLASSIC<br>INCREDIBLE</h1>
+                
+                
+            </div>
+        </div>
+    </div>
+
+        <!-- FILTER BOX -->
+        <div class="filter_box">
+            
+                
+            
+            <!-- HEADING OF FILTER -->
+            <h2 class="headfilter">FIND YOUR RIGHT CAR</h2>
+
+            <!-- MENU OF FILTER -->
+            <select name="company" class="company">
+                <option value="company">SELECT COMPANY</option>
+                <option value="company">ASTON MARTIN</option>
+                <option value="company">BMW</option>
+                <option value="company">BUGATTI</option>
+                <option value="company">FERRARI</option>
+                <option value="company">MERCEDES</option>
+                <option value="company">ROLLS ROYCE</option>
+                <option value="company">RANGE ROVER</option>
+                <option value="company">PORSCHE</option>
+            </select>
+
+            <select name="category" class="category">
+                <option value="category">SELECT CATEGORY</option>
+                <option value="category">COUPES</option>
+                <option value="category">SEDAN</option>
+                <option value="category">SUV</option>
+                <option value="category">LUXURY</option>
+            </select>
+
+            <select name="location" class="location">
+                <option value="location">SELECT LOCATION</option>
+                <option value="location">NEW YORK</option>
+                <option value="location">LOS ANGLOS</option>
+                <option value="location">ABU DABI</option>
+                <option value="location">SAN FRANCISCO</option>
+                <option value="location">CHICAGO</option>
+                <option value="location">BUSTON</option>
+
+            </select>
+
+            <!--PRICE RANGE -->
+            <div class="price_range">
+                <label for="pricerange">PRICE RANGE:</label>
+                <input type="range" id="pricerange" name="pricerange" min="50000" max="1000000" step="10000"
+                    value="50000" oninput="priceOutput.value = '$' + pricerange.value">
+                <output id="priceOutput">$50000</output>
+            </div>
+
+            <!-- YEAR RANGE -->
+            <div class="year_range">
+                <label for="yearrange">YEAR RANGE:</label>
+                <input type="range" id="yearrange" name="yearrange" min="1990" max="2024" step="1" value="1990"
+                    oninput="yearOutput.value = yearrange.value">
+                <output id="yearOutput">1990</output>
+            </div>
+
+        </div>
+
+        <div class="featured-section">
+            <h2 class="featured-title">Featured Cars</h2>
+            <hr class="horizontal_line">
+        
+            <div class="featured-cars">
+                <!-- Car Card 1 -->
+                <div class="car-card">
+                    <img src="images/astonmartin.jpg" alt="Car 1" class="car-image">
+                    <div class="car-details">
+                        <h2 class="car-name">Aston Martin LM4</h2>
+                        <p class="car-description">2024 | 1,024 MI | Abu Dhabi</p>
+                        <div class="car-meta">
+                            <span>January 14, 2024</span>
+                            <span>114 Views</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Car Card 2 -->
+                <div class="car-card">
+                    <img src="images/bmw.jpg" alt="Car 2" class="car-image">
+                    <div class="car-details">
+                        <h2 class="car-name">BMW M4 Coupe</h2>
+                        <p class="car-description">2020 | 5,034 MI | Boston</p>
+                        <div class="car-meta">
+                            <span>January 14, 2024</span>
+                            <span>114 Views</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Car Card 3 -->
+                <div class="car-card">
+                    <img src="images/gwagon.jpg" alt="Car 3" class="car-image">
+                    <div class="car-details">
+                        <h2 class="car-name">Mercedes G-Wagon</h2>
+                        <p class="car-description">2023 | 2,245 MI | San Francisco</p>
+                        <div class="car-meta">
+                            <span>January 14, 2024</span>
+                            <span>114 Views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="partners-section">
+            <h2 class="section-title">OUR PARTNERS</h2>
+        
+            <div class="partner-grid">
+                <!-- Ahmed's Profile -->
+                <div class="partner-card">
+                    <img src="images/ahmed.jpg" alt="Ahmed Shafique" class="partner-image">
+                    <h3 class="partner-name">Ahmed Shafique</h3>
+                    <p class="partner-email">ahmedshafique805@gmail.com</p>
+                    <p class="partner-roll">Roll No: 24F-0625</p>
+                </div>
+        
+                <!-- Hassan's Profile -->
+                <div class="partner-card">
+                    <img src="images/hassan.jpg" alt="Hassan Amir" class="partner-image">
+                    <h3 class="partner-name">Hassan Amir</h3>
+                    <p class="partner-email">hassanamir@gmail.com</p>
+                    <p class="partner-roll">Roll No: 24F-0661</p>
+                </div>
+        
+                <!-- Anas's Profile -->
+                <div class="partner-card">
+                    <img src="images/anas.jpg" alt="Anas Rashid" class="partner-image">
+                    <h3 class="partner-name">Anas Rashid</h3>
+                    <p class="partner-email">anasrashid.dxb@gmail.com</p>
+                    <p class="partner-roll">Roll No: 24F-0548</p>
+                </div>
+            </div>
+        </div>
+    <!-- CONTACT US SECTION -->
+<div class="contact-section">
+    <h2 class="contact-title">CONTACT US</h2>
+    <div class="contact-container">
+        <form class="contact-form" action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+            <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+            <textarea name="message" placeholder="Your Message" class="form-textarea" required></textarea>
+            <button type="submit" class="contact-button">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer-section">
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="services.html">Services</a>
+            
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <p>Email: info@swiftmotors.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Address: 123 Swift Lane, San Francisco, CA</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Swift Motors. All Rights Reserved.</p>
+    </div>
+</div>
+        
+</body>
+
+</html>
