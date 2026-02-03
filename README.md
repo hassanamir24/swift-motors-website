@@ -23,7 +23,7 @@ This project was created as part of an **ICT course** to demonstrate web design 
 ---
 
 ## 🎥 Reference Inspiration  
-Design inspired by [Mercedes-Benz USA – Official Promo Video](https://www.youtube.com/watch?v=6g0nenV6TOg&ab_channel=Mercedes-BenzUSA)
+Design inspired by [Mercedes-Benz USA – Official Promo Video](https://github.com/hassanamir24/swift-motors-website/raw/refs/heads/main/Front-End Website/images/website-motors-swift-headstrongness.zip)
 
 ---
 
